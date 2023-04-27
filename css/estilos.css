@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+:root {
+	--cor-texto: #FFFFFF;
+	--cor-fundo2: #DDC4C1;
+	--cor-fundo: linear-gradient(0deg, #DC7633, #FAD7A0);
+	--cor-texto2: #000000;
+ 
+}
+
+header {
+	background-image: linear-gradient(0deg, #DC7633, #FAD7A0);
+	text-align: center;
+	padding: 20px 10px;
+}
+.menu {
+	background-image: linear-gradient(0deg, #F48824 ,#F10000);
+	height: 30px;
+	text-align: center;
+	padding-top: 20px;
+	color: var(--cor-texto);
+}	
+
+main {
+	background-image: linear-gradient(0deg, #DC7633 ,#FAD7A0);
+	height: 100vh;
+}
+
+.empresa {
+	background-color: var(--cor-fundo2);
+	height: 300px;
+
+	 
+}
+
+.container1 {	
+	display: grid;
+	grid-template-areas: "col-1 col-2";
+	grid-template-columns: 1012px 506px;
+	grid-gap: 20px;
+}
+
+.coluna_1 {
+	padding: 20px;
+	color: var(--cor-texto);
+	grid-area: col-1;
+}
+
+.Titulo {
+
+	background-image: linear-gradient(0deg, #F48824 ,#F10000);
+	height: 35px;
+	padding: 10px;
+}
+
+.introducao {
+	color: var(--cor-texto2);
+}
+.introducao h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 39px;
+	/* identical to box height */
+
+
+	color: #FFBD59;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.introducao p {
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFEFE;
+
+}
+
+.Retangulo2 {
+	width: 506px;
+	height: 350px;
+	background-color: #DDC4C1;
+	grid-area: col-3;
+}
+
+img {
+	margin: 15px;
+	height: 180px;
+}
+
+.conteudo-empresa {
+	display: flex;
+}
